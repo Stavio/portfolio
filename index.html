@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stav - Web Designer & Developer | Custom Websites & SEO Optimization</title>
+    <title>Stav - Portfolio website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -21,10 +24,90 @@
             </ul>
         </div>
     </nav>
+    <main class="scroller">
+        <section class="hero_section">
+            <p>Web designer / developer</p>
+            <h2>Stavios Ngoy</h2>
+            <p>
+                <quote> If at first you don’t succeed; call it version 1.0</quote>
+            </p>
+        </section>
 
-    <section class="hero_section">
+        <section class="about_section">
 
-    </section>
+            <div>
+                <img src="img/Stavios.png" alt="stavios potrait">
+            </div>
+            <div>
+                <h2>My Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Tincidunt non mauris donec pulvinar magna.
+                    Tellus praesent lorem ac tristique et augue dui lorem. Ac faucibus egestas nisl non.
+                    Risus sit gravida magna nunc quis vulputate. Turpis posuere ante feugiat in nisi.
+                    Consequat id eget amet id ac velit accumsan pretium. Felis praesent lectus diam ut mi nulla
+                    pellentesque.
+                    Pretium duis in eu eget tempus. Faucibus rutrum tellus pellentesque elementum mauris vulputate
+                    scelerisque dui at.
+                    Facilisis dignissim a enim arcu dictum dolor habitant bibendum in. Placerat tincidunt blandit
+                    suspendisse dignissim iaculis in.</p>
+                <div class="resume_elment">
+                    <svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg" style="width:50%">
+                        <g transform="rotate(180, 95, 25)">
+                            <!-- Horizontal line -->
+                            <line x1="10" y1="25" x2="180" y2="25" stroke="white" stroke-width="1" />
+                        </g>
+                        <!-- Arrow head facing right -->
+                        <line x1="180" y1="25" x2="170" y2="35" stroke="white" stroke-width="1" />
+                        <line x1="180" y1="25" x2="170" y2="15" stroke="white" stroke-width="1" />
+                    </svg>
+                    <p>Resume</p>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section class="stack_section">
+            <h2>Stack</h2>
+            <div class="stack_container">
+                <div class="stack_card">
+                    <img src="img/project1.jpg" alt="tech stack">
+                </div>
+                <div class="stack__card">
+                    <img src="img/project2.jpg" alt="tech stack">
+                </div>
+                <div class="stack_card">
+                    <img src="img/project3.jpg" alt="tech stack">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="black">
+
+            <div class="text-wrap">
+                <div class="panel-text blue-text">Blue</div>
+                <div class="panel-text red-text">Red</div>
+                <div class="panel-text orange-text">Orange</div>
+                <div class="panel-text purple-text">Purple</div>
+            </div>
+
+            <div class="p-wrap">
+                <div class="panel blue"></div>
+                <div class="panel red"></div>
+                <div class="panel orange"></div>
+                <div class="panel purple"></div>
+            </div>
+
+        </section>
+
+        <section class="blue"></section>
+    </main>
+
+
+
 </body>
 
 </html>
